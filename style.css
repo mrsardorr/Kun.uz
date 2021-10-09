@@ -17,8 +17,8 @@ body {
 .upheader {
     display: flex;
     background-color: whitesmoke;
-    margin-left: 11%;
-    width: 77%;
+    margin-left: 6%;
+    width: 85%;
     border-radius: 10px 10px 0px 0px;
     padding: 16px ;
 }
@@ -32,14 +32,17 @@ body {
     transition: 0.2s;
     border-radius: 10px;
 }
-.uzb ul li:hover{
-    background-color: rgb(180, 180, 180);
+.uzb ul li a:hover{
+    color: rgb(52, 52, 221);
     transition: 0.2s;
 
 }
 .uzb ul li a{
     text-decoration: none;
+    transition: 0.2s;
     color: black;
+    font-weight: bold;
+    font-size: 19px;
 }
 .gazicon{
     font-size: 9px;
@@ -106,8 +109,9 @@ body {
 .xudud {
     display: inline-flex;
     background-color: rgb(219, 219, 219);
-    width: 79%;
-    margin-left: 11%;
+    width: 87%;
+    margin-left: 6%;
+    
 }
 .xudud ul {
     display: inline-flex;
@@ -125,16 +129,17 @@ body {
     border-right: 2px solid gray;
     padding: 0px 5px;
     color: gray;
-    font-size: 15px;
+    font-size: 17px;
 }
 .xudud h3 {
-    font-size: 12px;
+    font-size: 15px;
     background-color: rgb(19, 19, 121);
     color: white;  
     padding: 10px;
 }
-.xudud ul li :hover {
-    background-color: rgb(216, 208, 208);
+.xudud ul li a:hover {
+    color: rgb(52, 52, 221);
+    
     transition: 0.2s;
 }
 .yol img {
@@ -142,14 +147,20 @@ body {
     height: 100%;
 }
  .yol a {
-    margin-left: 11%;
+    margin-left: 6%;
     margin-top: 0.5%;
     background-color: rgba(118, 145, 194, 0.336);
-    width: 63%;
+    width: 69%;
     height: 300px;
     display: flex;
     text-decoration: none;
     color: black;
+    transition: 0.3s;
+
+}
+.yol a:hover{
+    color: rgb(52, 52, 221);
+    transition: 0.3s;
 }
 
 .data h6 {
@@ -179,9 +190,13 @@ body {
     margin-left: 3%;
     text-decoration: none;
     color: black;
+    transition: 0.3s;
+
 }
 .kichu a:hover {
-    background-color: rgba(118, 145, 194, 0.336);
+    color: rgb(52, 52, 221);
+    transition: 0.3s;
+
 }
 .kichu img {
     width: 40%;
@@ -198,17 +213,126 @@ body {
 }
 .flex {
     display: flex;
-    width: 65%;
-    margin-left: 10%;
+    width: 71%;
+    margin-left: 5%;
 }
+.header1{
+    width: 69%;
+    margin-left: 6%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.krug {
+    border: 4px solid rgb(19, 19, 121);
+    width: 5.5px;
+    border-radius: 100%;
+    height: 5.5px;
+    margin-right: 5px;
+}
+.sarlavha h2 {
+    font-size: 20px;
+}
+.sarlavha {
+    align-items: center;
+    display: flex;
+}
+.header1 a {
+    color: rgb(19, 19, 121);    transition: 0.3s;
 
-
-
-
-
-
-
-
+}
+.header1 a:hover{
+    transition: 0.3s;
+    color: rgb(52, 52, 221);
+}
+.bitta  {
+    width: 32.2%;
+    height: 10%;
+}
+.bitta a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.bitta a:hover{
+    transition: 0.3s;
+    color: rgb(52, 52, 221);
+}
+.bitta img {
+    height: 50%;
+    width: 100%;
+}
+.uchtanew{
+    margin-top: 1%;
+    display: flex;
+    width: 69%;
+    margin-left: 6%;
+    justify-content: space-between;
+}
+.bitta .data {
+    margin-top: 2%;
+}
+.bitta h5 {
+    margin-top: 1%;
+}
+.jujun{
+    display: flex;
+    width: 90%;
+    margin-left: 0.5%;
+}
+.kotta{
+    margin-right:-23.5% ;
+}
+.nav {
+    width: 100%;
+}
+.sarlav{
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+.sarlav{
+    width: 100%;
+    font-size: 10px;
+}
+.navnews{
+    border-bottom: 1px solid gray;
+    margin-top: 4%;
+}
+.navnews h3{
+    font-size: 14.5px;
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+}
+.navnews span {
+    color: orange;
+    font-size: 13px;
+}
+.navnews a:hover{
+    color: rgb(52, 52, 221);
+}
+.navnews a {
+    color: black;
+    text-decoration: none;
+}
+.kopr{
+    padding: 10px;
+    background-color: rgba(118, 145, 194, 0.336);
+    margin-top: 10%;
+    /* border-radius: 0px 50% 50% 0px; */
+    /* width: 100%; */
+    border-left: 2px solid rgb(19, 19, 121);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.kopr a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.kopr a:hover{
+    color: rgb(52, 52, 221);
+}
 
 
 
